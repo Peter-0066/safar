@@ -1,0 +1,82 @@
+body {
+    background-color: #02203a; /* لون الخلفية */
+    
+}
+
+.navbar {
+    background-color: #011526; /* لون الشريط العلوي */
+    border-color: #09457a;
+   
+}
+.checkam{
+    border-color: #006ace;}
+    
+
+
+.barbtn{
+    color: #006ace;    
+    background-color: #011526;
+       
+}
+.barbtnsafa{
+    color: #006ace;    
+    background-color: #011526;
+       
+}
+
+.barbtn:hover {
+    color: #011526;
+    background-color: #006ace; /*  */
+    border-color: #011526;
+   
+
+}
+.selbar{
+  
+    color: #006ace;;
+    background-color: #011526;
+    border-color: #006ace;
+}
+.selbar:hover {
+    color: #006ace;
+    background-color: #011526; 
+    border-color: #006ace; 
+    font-weight: bolder;
+
+}
+
+
+
+.cel{
+    
+    background-color:#84b3da;
+    border-color: #000000;
+    
+}
+
+
+
+    
+
+.hcel{
+    color:#002c7e;
+    background-color:#5f9fd6;
+  font-weight: bold;
+  
+}
+.txtscop{
+    font-weight:bold;
+    color: #006ace;
+   
+
+}
+.txtscop:hover{
+    font-weight: bolder;
+    color: #003363;
+   
+
+}
+
+
+
+

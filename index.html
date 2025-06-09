@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAFAR.net</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bb.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand col-sm-12">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">
+                <img src="https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Logo" width="40" height="34" class="d-inline-block align-text-top rounded-circle">
+                SAFAR<span class="text-primary">.net</span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbar-links">
+                <ul class="navbar-nav">
+                    <li class="nav-item btn-secondary">
+                        <a class="nav-link barbtn rounded-circle" href="tel:+963954944857">TAXI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link barbtn rounded-circle" href="mailto:amir4worksy@gmail.com">Mail US</a>
+                    </li>
+                    <li class="nav-item btn-secondary">
+                        <a class="nav-link barbtn rounded-circle" href="About us.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-group m-2">
+            <button type="button" class="btn text-primary dropdown-toggle selbar" data-bs-toggle="dropdown" aria-expanded="false">
+                Other services
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end text-center selbar">
+                <li><a class="dropdown-item selbar" href="Offers.html">Offers</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item selbar" href="safari.html">Safari</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item selbar" href="send.html">Sending parcels</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pic/1.jpg" class="d-block w-100" alt="..." height="600px">
+            </div>
+            <div class="carousel-item">
+                <img src="pic/2.jpg" class="d-block w-100" alt="..." height="600px">
+            </div>
+            <div class="carousel-item">
+                <img src="pic/3.jpg" class="d-block w-100" alt="..." height="600px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5 barbtnsafa">
+        <div class="row">
+            <div class="col-12 col-md-8 border">
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 text-center hcel"><p>Search information</p></div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col">
+                            <input type="radio" class="btn-check" name="options-base" id="option1" autocomplete="off" checked>
+                            <label class="btn btn-outline checkam" for="option1">Round trip</label>
+                            <input type="radio" class="btn-check" name="options-base" id="option2" autocomplete="off">
+                            <label class="btn btn-outline checkam" for="option2">One way trip</label>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-4">
+                            <select class="form-select selbar" id="from-airport" aria-label="Departure airport">
+                                <option value="">Select departure airport</option>
+                            </select>
+                        </div>
+                        <div class="col-4">
+                            <select class="form-select selbar" id="to-airport" aria-label="Destination airport">
+                                <option value="">Select destination airport</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col">
+                            <label for="go-date">the date of go</label>
+                            <input class="selbar" type="date" name="Go date" id="go-date">
+                            <label for="re-date">Return date</label>
+                            <input class="selbar" type="date" name="return date" id="re-date">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col m-1">
+                            <input type="radio" class="btn-check" name="Category" id="Category-1" value="economy" autocomplete="off" checked>
+                            <label class="btn checkam" for="Category-1">Economical</label>
+                            <input type="radio" class="btn-check" name="Category" id="Category-2" value="business" autocomplete="off">
+                            <label class="btn checkam" for="Category-2">Businessmen</label>
+                            <input type="radio" class="btn-check" name="Category" id="Category-3" value="first_class" autocomplete="off">
+                            <label class="btn checkam" for="Category-3">First class</label>
+                        </div>
+                    </div>
+                    <div class="row mt-2 mb-2">
+                        <div class="col-4">
+                            <label class="" for="num-tr">number of trav</label>
+                            <input class="selbar" type="number" max="6" min="1" value="1" id="num-tr" name="number-tr">
+                        </div>
+                        <div class="col-4">
+                            <input type="checkbox" class="btn-check" name="options-stop" id="Without-st" autocomplete="off">
+                            <label class="btn btn-outline mb-3 checkam" for="Without-st">Without stopping</label>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn selbar text-light" id="search-flight-btn">search a flight</button>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn selbar text-light" id="book-flight-btn">Book a flight</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-4 border">
+                <div class="row">
+                    <div class="col-12 text-center hcel"><p>results</p></div>
+                </div>
+                <div class="row">
+                    <div class="col" id="flight-results"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5 border barbtnsafa">
+        <div class="row">
+            <div class="col hcel text-center">
+                <h4>Personal information</h4>
+                <form id="personal-info-form">
+                    <div class="row mb-2 mt-3">
+                        <div class="col-4 mt-1">
+                            <label class="txtscop" for="first_name">First name</label>
+                            <input class="barbtn rounded" type="text" id="first_name" required style="width:100%">
+                        </div>
+                        <div class="col-4 mt-1">
+                            <label class="txtscop" for="middle_name">Middle name</label>
+                            <input class="barbtn rounded" type="text" id="middle_name" style="width:100%">
+                        </div>
+                        <div class="col-4 mt-1">
+                            <label class="txtscop" for="last_name">Last name</label>
+                            <input class="barbtn rounded" type="text" id="last_name" required style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-4 mt-1">
+                            <label class="txtscop" for="email">Email</label>
+                            <input class="barbtn rounded" type="email" id="email" required style="width:100%">
+                        </div>
+                        <div class="col-4 mt-1">
+                            <label class="txtscop" for="phone_number">Phone number</label>
+                            <input class="barbtn rounded" type="text" id="phone_number" required style="width:100%">
+                        </div>
+                        <div class="col-4 mt-1">
+                            <label class="txtscop" for="passport_number">Passport number</label>
+                            <input class="barbtn rounded" type="text" id="passport_number" required style="width:100%">
+                        </div>
+                    </div>
+                    <div class="row mt-5 mb-5">
+                        <div class="col-6">
+                            <button class="txtscop selbar rounded" type="submit" style="width:100%;">Confirm</button>
+                        </div>
+                        <div class="col-6">
+                            <button class="txtscop selbar rounded" type="reset" style="width:100%;">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js" integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/home.js"></script>
+    <iframe
+    src="https://www.chatbase.co/chatbot-iframe/18mFzxYm0pZ_SCWlS4vub"
+    width="100%"
+    style="height: 100%; min-height: 700px"
+    frameborder="0"
+></iframe>
+</body>
+</html>
